@@ -1,9 +1,8 @@
-
 <?php
 
 namespace Config;
 
-class OrmExtension 
+class OrmExtension
 {
     public static $modelNamespace = ['App\Models\\'];
     public static $entityNamespace = ['App\Entities\\'];
@@ -11,5 +10,5 @@ class OrmExtension
     /*
      * Provide Namespace for Xamarin models folder
      */
-    public $xamarinModelsNamespace          = 'App.Models';
+    public $xamarinModelsNamespace = 'App.Models';
 }
