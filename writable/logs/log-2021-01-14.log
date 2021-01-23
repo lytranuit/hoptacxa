@@ -1,0 +1,10 @@
+CRITICAL - 2021-01-14 02:33:34 --> You must use the "set" method to update an entry.
+#0 C:\laragon\www\htx\system\Database\BaseBuilder.php(2430): CodeIgniter\Database\BaseBuilder->validateUpdate()
+#1 C:\laragon\www\htx\system\Model.php(889): CodeIgniter\Database\BaseBuilder->update()
+#2 C:\laragon\www\htx\system\Model.php(566): CodeIgniter\Model->update(Array, Array)
+#3 C:\laragon\www\htx\app\Controllers\Admin\Slider.php(45): CodeIgniter\Model->save(Object(App\Entities\Slider))
+#4 C:\laragon\www\htx\system\CodeIgniter.php(918): App\Controllers\Admin\Slider->edit('12')
+#5 C:\laragon\www\htx\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Slider))
+#6 C:\laragon\www\htx\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\htx\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,78 @@
+CRITICAL - 2021-01-06 01:50:30 --> Undefined variable: categories
+#0 C:\laragon\www\htx\app\Views\frontend\news\index.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 36, Array)
+#1 C:\laragon\www\htx\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\htx\system\Common.php(1119): CodeIgniter\View\View->render('frontend\\news\\i...', Array, true)
+#3 C:\laragon\www\htx\app\Controllers\News.php(20): view('frontend\\news\\i...', Array)
+#4 C:\laragon\www\htx\system\CodeIgniter.php(918): App\Controllers\News->index()
+#5 C:\laragon\www\htx\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#6 C:\laragon\www\htx\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\htx\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-06 02:02:28 --> Undefined variable: category_id
+#0 C:\laragon\www\htx\app\Views\frontend\news\index.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 65, Array)
+#1 C:\laragon\www\htx\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\htx\system\Common.php(1119): CodeIgniter\View\View->render('frontend\\news\\i...', Array, true)
+#3 C:\laragon\www\htx\app\Controllers\News.php(20): view('frontend\\news\\i...', Array)
+#4 C:\laragon\www\htx\system\CodeIgniter.php(918): App\Controllers\News->index()
+#5 C:\laragon\www\htx\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#6 C:\laragon\www\htx\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\htx\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-06 02:47:39 --> Unknown column 'code' in 'where clause'
+#0 C:\laragon\www\htx\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\laragon\www\htx\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\htx\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\htx\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\htx\app\Models\NewsModel.php(151): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\htx\app\Controllers\Ajax.php(30): App\Models\NewsModel->get_news('0', 'chiem', '0', '20')
+#6 C:\laragon\www\htx\system\CodeIgniter.php(918): App\Controllers\Ajax->news()
+#7 C:\laragon\www\htx\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#8 C:\laragon\www\htx\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\htx\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-06 02:47:42 --> Unknown column 'code' in 'where clause'
+#0 C:\laragon\www\htx\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\laragon\www\htx\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\htx\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\htx\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\htx\app\Models\NewsModel.php(151): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\htx\app\Controllers\Ajax.php(30): App\Models\NewsModel->get_news('0', 'chi\xC3\xAAm', '0', '20')
+#6 C:\laragon\www\htx\system\CodeIgniter.php(918): App\Controllers\Ajax->news()
+#7 C:\laragon\www\htx\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#8 C:\laragon\www\htx\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\htx\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-06 02:47:49 --> Unknown column 'code' in 'where clause'
+#0 C:\laragon\www\htx\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\laragon\www\htx\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\htx\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\htx\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\htx\app\Models\NewsModel.php(151): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\htx\app\Controllers\Ajax.php(30): App\Models\NewsModel->get_news('0', 'cay', '0', '20')
+#6 C:\laragon\www\htx\system\CodeIgniter.php(918): App\Controllers\Ajax->news()
+#7 C:\laragon\www\htx\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#8 C:\laragon\www\htx\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\htx\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-06 02:52:24 --> Table 'htx.htx_users' doesn't exist
+#0 C:\laragon\www\htx\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\laragon\www\htx\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\htx\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\htx\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\htx\app\Models\NewsModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\htx\app\Controllers\Ajax.php(31): App\Models\NewsModel->relation(Array, Array)
+#6 C:\laragon\www\htx\system\CodeIgniter.php(918): App\Controllers\Ajax->news()
+#7 C:\laragon\www\htx\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#8 C:\laragon\www\htx\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\htx\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-01-06 02:59:48 --> Undefined property: stdClass::$price
+#0 C:\laragon\www\htx\app\Views\frontend\product\view.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 47, Array)
+#1 C:\laragon\www\htx\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\htx\system\Common.php(1119): CodeIgniter\View\View->render('frontend\\produc...', Array, true)
+#3 C:\laragon\www\htx\app\Controllers\Product.php(41): view('frontend\\produc...', Array)
+#4 C:\laragon\www\htx\system\CodeIgniter.php(918): App\Controllers\Product->view('4')
+#5 C:\laragon\www\htx\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 C:\laragon\www\htx\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\htx\public\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
