@@ -102,7 +102,7 @@
                         <div class="c-slider--products--related">
                             <?php foreach ($products as $row) : ?>
                                 <div class="single-product single-card c-slider__item">
-                                    <a href="<?= base_url("product/view/$row->id") ?>" class="single-card__link" tabindex="0">
+                                    <a href="<?= url_product($row->id) ?>" class="single-card__link" tabindex="0">
                                         <div class="single-product__image h-rectangle">
                                             <div class="image-wrap h-rectangle__inner h-bg-cover" style="background-image: url(<?= base_url(isset($row->image->src) ? $row->image->src : "assets/images/placeholder.png") ?>);"></div>
                                         </div>
