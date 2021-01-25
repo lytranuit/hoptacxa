@@ -25,6 +25,20 @@ class Product extends BaseController
         //die();
         return view($this->data['content'], $this->data);
     }
+    public function category($category_id)
+    {
+
+        $category_model = model("CategoryModel");
+        $this->data['category_id'] = $category_id;
+        $this->data['category'] = $category_model->find($category_id);
+        $this->data['title'] =   $this->data['category']->{pick_language($this->data['category'])} . $this->data['title'];
+        $this->data['categories'] = $category_model->findAll();
+        $this->data['content'] = "frontend/product/index";
+        //echo "<pre>";
+        //print_r($this->data['categories']);
+        //die();
+        return view($this->data['content'], $this->data);
+    }
 
     //--------------------------------------------------------------------
     public function view($id)

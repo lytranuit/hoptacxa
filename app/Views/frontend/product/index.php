@@ -7,14 +7,20 @@
     <div class="container">
         <ol class="breadcrumb">
             <li><a href="<?= base_url() ?>">Trang chủ</a></li>
-            <li class="active">Sản phẩm</li>
             <?php if (isset($category)) : ?>
                 <li class="active"><?= $category->{pick_language($category, "name_")} ?></li>
+            <?php else : ?>
+                <li class="active">Sản phẩm</li>
             <?php endif ?>
         </ol>
     </div>
 </div>
 <div class="container">
+    <div class="c-description" style='margin:10px;'>
+        <?php if (isset($category)) : ?>
+            <?= $category->{pick_language($category, "content_")} ?>
+        <?php endif ?>
+    </div>
     <div class="c-categorybar">
         <div class="c-categorybar__top">
             <a href="#" id="Toggle__Search" class="c-categorybar__toggle" data-toggle="collapse">

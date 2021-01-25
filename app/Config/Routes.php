@@ -36,6 +36,7 @@ $routes->get('/', 'Home::index');
 $routes->add('lang/(:any)', 'Language::index/$1');
 
 $routes->add('danh-muc', 'Product::index');
+$routes->add('danh-muc/(:any)-c(:num).html', 'Product::category/$2');
 $routes->add('bang-tin', 'News::index');
 $routes->add('san-pham/(:any)-c(:num).html', 'Product::view/$2');
 $routes->add('tin-tuc/(:any)-c(:num).html', 'News::view/$2');

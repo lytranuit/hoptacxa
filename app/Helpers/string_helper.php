@@ -268,7 +268,9 @@ if (!function_exists('url_product_list')) {
     {
         $url = base_url("danh-muc");
         if ($id > 0) {
-            $url = base_url("danh-muc?category_id=$id");
+            $category_model = model("CategoryModel");
+            $category = $category_model->find($id);
+            $url = base_url("danh-muc/" . ($category->slug != '' ? $category->slug : str_slug($category->name_vi)) . "-c$id.html");
         }
         return $url;
     }
@@ -308,7 +310,7 @@ if (!function_exists('url_product')) {
         if ($id > 0) {
             $product_model = model("ProductModel");
             $product = $product_model->find($id);
-            $url = base_url("san-pham/" . str_slug($product->name_vi) . "-c$id.html");
+            $url = base_url("san-pham/" . ($product->slug != '' ? $product->slug : str_slug($product->name_vi)) . "-c$id.html");
         }
         return $url;
     }
@@ -323,7 +325,7 @@ if (!function_exists('url_page')) {
 
             $page_model = model("PageModel");
             $page = $page_model->find($id);
-            $url = base_url("page/" . str_slug($page->title_vi) . "-c$id.html");
+            $url = base_url("page/" . ($page->slug != '' ? $page->slug : str_slug($page->title_vi)) . "-c$id.html");
         }
         return $url;
     }
@@ -337,7 +339,7 @@ if (!function_exists('url_news')) {
         if ($id > 0) {
             $news_model = model("NewsModel");
             $news = $news_model->find($id);
-            $url = base_url("tin-tuc/" . str_slug($news->title_vi) . "-c$id.html");
+            $url = base_url("tin-tuc/" . ($news->slug != '' ? $news->slug : str_slug($news->title_vi)) . "-c$id.html");
         }
         return $url;
     }
