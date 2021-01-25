@@ -20,6 +20,7 @@ class Page extends BaseController
             $Page_model = model("PageModel");
             $data = $this->request->getPost();
             $data['user_id'] = user_id();
+            $data['slug'] = str_slug($data['title_vi']);
             $obj = new \App\Entities\Page();
             $obj->fill($data);
             $obj->date = date("Y-m-d H:i:s");

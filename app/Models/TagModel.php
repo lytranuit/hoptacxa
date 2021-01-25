@@ -12,7 +12,7 @@ class TagModel extends Model
     protected $returnType     = 'App\Entities\Tag';
     protected $useSoftDeletes = true;
 
-    protected $allowedFields = ['name_vi', 'name_en', 'name_jp', 'description_vi', 'description_en', 'description_jp', 'date', 'user_id', 'image_id'];
+    protected $allowedFields = ['slug','name_vi', 'name_en', 'name_jp', 'description_vi', 'description_en', 'description_jp', 'date', 'user_id', 'image_id'];
 
 
 

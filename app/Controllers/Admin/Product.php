@@ -22,6 +22,7 @@ class Product extends BaseController
             $Product_image_model = model("ProductImageModel");
             $data = $this->request->getPost();
             $data['user_id'] = user_id();
+            $data['slug'] = str_slug($data['name_vi']);
             $obj = new \App\Entities\Product();
             $obj->fill($data);
             $obj->date = date("Y-m-d H:i:s");

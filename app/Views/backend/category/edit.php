@@ -16,6 +16,12 @@
                 <div class="card-body">
                     <div class="row">
                         <div class="col-md-8">
+                            <div class="form-group row">
+                                <b class="col-12 col-lg-2 col-form-label">SEO URL:</b>
+                                <div class="col-12 col-lg-10 pt-1">
+                                    <input class="form-control form-control-sm" type="text" name="slug">
+                                </div>
+                            </div>
                             <ul class="nav nav-tabs">
                                 <li class="nav-item">
                                     <a class="nav-link active" data-toggle="tab" href="#menu0">Tiếng Việt</a>
@@ -39,7 +45,13 @@
                                     <div class="form-group row">
                                         <b class="col-12 col-lg-2 col-form-label">Mô tả:<i class="text-danger">*</i></b>
                                         <div class="col-12">
-                                            <textarea class="edit form-control" name="description_vi"></textarea>
+                                            <textarea class="form-control" name="description_vi"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <b class="col-12 col-lg-2 col-form-label">Nội dung:<i class="text-danger">*</i></b>
+                                        <div class="col-12">
+                                            <textarea class="edit" name="content_vi"></textarea>
                                         </div>
                                     </div>
                                 </div>
@@ -53,7 +65,13 @@
                                     <div class="form-group row">
                                         <b class="col-12 col-lg-2 col-form-label">Mô tả:<i class="text-danger">*</i></b>
                                         <div class="col-12">
-                                            <textarea class="edit form-control" name="description_en"></textarea>
+                                            <textarea class="form-control" name="description_en"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <b class="col-12 col-lg-2 col-form-label">Nội dung:<i class="text-danger">*</i></b>
+                                        <div class="col-12">
+                                            <textarea class="edit" name="content_en"></textarea>
                                         </div>
                                     </div>
                                 </div>
@@ -67,7 +85,13 @@
                                     <div class="form-group row">
                                         <b class="col-12 col-lg-2 col-form-label">Mô tả:<i class="text-danger">*</i></b>
                                         <div class="col-12">
-                                            <textarea class="edit form-control" name="description_jp"></textarea>
+                                            <textarea class="form-control" name="description_jp"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <b class="col-12 col-lg-2 col-form-label">Nội dung:<i class="text-danger">*</i></b>
+                                        <div class="col-12">
+                                            <textarea class="edit" name="content_jp"></textarea>
                                         </div>
                                     </div>
                                 </div>
@@ -93,9 +117,14 @@
 
 <script src="<?= base_url("assets/lib/mustache/mustache.min.js") ?>"></script>
 <script src="<?= base_url("assets/lib/image_feature/jquery.image.js") ?>"></script>
+<script src="<?= base_url("assets/lib/ckeditor/ckeditor.js") ?>"></script>
 <script type='text/javascript'>
     var tin = <?= json_encode($tin) ?>;
     fillForm($("#form-dang-tin"), tin);
+    var allEditors = document.querySelectorAll('.edit');
+    for (var i = 0; i < allEditors.length; ++i) {
+        CKEDITOR.replace(allEditors[i]);
+    }
     $(document).ready(function() {
         $(".image_ft").imageFeature();
 

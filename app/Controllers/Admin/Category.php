@@ -20,6 +20,7 @@ class Category extends BaseController
             $Category_model = model("CategoryModel");
             $data = $this->request->getPost();
             $data['user_id'] = user_id();
+            $data['slug'] = str_slug($data['name_vi']);
             $obj = new \App\Entities\Category();
             $obj->fill($data);
             $obj->date = date("Y-m-d H:i:s");

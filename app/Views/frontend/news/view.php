@@ -47,7 +47,7 @@
                         <?php foreach ($news as $row) : ?>
                             <div class="c-slider__col">
                                 <div class="single-news single-card c-slider__item">
-                                    <a href="<?= base_url("news/view/$row->id") ?>" class="single-card__link" tabindex="-1">
+                                    <a href="<?= url_news($row->id) ?>" class="single-card__link" tabindex="-1">
                                         <div class="single-news__image h-rectangle h-rectangle--r21">
                                             <div class="image-wrap h-rectangle__inner h-bg-cover" style="background-image:url(<?= base_url(isset($row->image->src) ? $row->image->src : "assets/images/placeholder.png") ?>);"></div>
                                         </div>

@@ -18,6 +18,12 @@
                     <div class="row">
                         <div class="col-md-8">
                             <div class="form-group row">
+                                <b class="col-12 col-lg-2 col-form-label">SEO URL:</b>
+                                <div class="col-12 col-lg-10 pt-1">
+                                    <input class="form-control form-control-sm" type="text" name="slug">
+                                </div>
+                            </div>
+                            <div class="form-group row">
                                 <b class="col-12 col-lg-2 col-form-label">Hiện lên trang chủ:</b>
                                 <div class="col-12 col-lg-4 pt-1">
                                     <div class="switch-button switch-button-xs switch-button-success">
