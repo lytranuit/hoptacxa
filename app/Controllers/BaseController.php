@@ -53,7 +53,7 @@ class BaseController extends Controller
         $controller  = $router->controllerName();
         $method = $router->methodName();
         $explode = explode("\\", $controller);
-        $content = "frontend" . "\\" . strtolower($explode[count($explode) - 1]) . "\\" . $method;
+        $content = "frontend" . "/" . strtolower($explode[count($explode) - 1]) . "/" . $method;
 
 
         //echo $content;

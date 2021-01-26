@@ -34,7 +34,7 @@
             <div class="container">
                 <div class="site-header__top">
                     <div class="site-header__logo">
-                        <a href="<?= base_url() ?>"><img src="<?= base_url("assets/images/logo.png") ?>" alt="Sachi Logo"></a>
+                        <a href="<?= base_url() ?>"><img src="<?= base_url("assets/images/logo.webp") ?>" alt="Sachi Logo"></a>
                     </div>
                     <div class="site-header__toggle hidden-sm hidden-md hidden-lg">
                         <a href="<?= base_url() ?>" class="btn-toggle-list-nav js-btn-toggle-list-nav"><i class="fas fa-bars"></i></a>

@@ -2,9 +2,6 @@
 
 /* MaterialDesignIcons.com */
 
-@import url("https://fonts.googleapis.com/css?family=Charm:400,700&subset=vietnamese");
-@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i|Roboto:400,400i,500,500i,700,700i,900,900i&display=swap&subset=vietnamese");
-@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,500,600,700,800,900&display=swap&subset=vietnamese");
 @font-face {
     font-family: "Material Design Icons";
     src: url("../fonts/materialdesignicons-webfont.eot?v=4.2.95");
@@ -18874,7 +18871,7 @@ h3 {
 
 @media (min-width: 768px) and (min-width: 768px) {
     .site-header--minimal .site-header__nav .list-header-nav li a {
-        font-size: 22px;
+        font-size: 18px;
     }
     .site-header--minimal .site-header__nav .list-header-nav li a:after,
     .site-header--minimal .site-header__nav .list-header-nav li a:before {
@@ -18970,6 +18967,8 @@ h3 {
 .site-footer .footer-content__single {
     padding: 16px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    white-space: pre-line;
+    margin-top: -20px;
 }
 
 .site-footer .footer-content__single:last-child {
