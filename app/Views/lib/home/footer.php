@@ -28,5 +28,5 @@
      z-index: 1000;
      background: white;
      " href="tel:0924929999">
-    <img class="img-responsive" src="<?= base_url("assets/images/hotline.png")?>">
+    <img class="img-responsive" src="<?= base_url("assets/images/hotline.webp")?>">
 </div>

@@ -22,7 +22,7 @@
     <meta name="author" content="daotran">
     <meta name="copyright" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="preload" href="<?= base_url('assets/lib/fontawesome5/webfonts/fa-solid-900.woff2') ?>" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="<?= base_url('assets/webfonts/fa-solid-900.woff2') ?>" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Charm:400,700&subset=vietnamese">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i|Roboto:400,400i,500,500i,700,700i,900,900i&display=swap&subset=vietnamese">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,500,600,700,800,900&display=swap&subset=vietnamese">

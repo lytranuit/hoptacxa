@@ -6,7 +6,7 @@ use CodeIgniter\Model;
 
 class TagModel extends Model
 {
-    protected $table      = 'htx_Tag';
+    protected $table      = 'htx_tag';
     protected $primaryKey = 'id';
 
     protected $returnType     = 'App\Entities\Tag';

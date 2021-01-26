@@ -125,7 +125,7 @@ class Product extends BaseController
             return redirect()->to(base_url('admin/product'));
         } else {
             $Product_model = model("ProductModel");
-            $category_model = model("categoryModel");
+            $category_model = model("CategoryModel");
             $Product_category_model = model("ProductCategoryModel");
             $tin = $Product_model->where(array('id' => $id))->asObject()->first();
             $Product_model->relation($tin, array('image', 'image_other'));
