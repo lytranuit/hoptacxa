@@ -54,8 +54,10 @@ class Product extends BaseController
         //print_r($categories);
         //die();
         $this->data['products'] = $product_model->get_product_related($id, $categories);
+        
+        $product_model->relation($this->data['products'], array("image"));
         //echo "<pre>";
-        //print_r($this->data['info']);
+        //print_r($this->data['products']);
         //die();
 
         $this->data['title'] =   $this->data['info']->{pick_language($this->data['info'])} . $this->data['title'];

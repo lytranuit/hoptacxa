@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <!-- saved from url=(0020)https://hoptacxa.vn/ -->
-<html>
+<html lang="vi">
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
     <meta name="description" content="">
     <meta name="keywords" content="gao phu yen, nha may xay xat, lua gao phu yen, gao xay moc, gao dac san,gao lam bun, gao lam banh trang,gao cac loai">
     <meta property="og:url" content="<?= base_url() ?>">
@@ -13,6 +12,7 @@
     <meta property="og:description" content="">
     <meta property="og:image" content="<?= base_url("assets/images/logo.png?v=1") ?>">
 
+    <meta name="robots" content="index,follow" />
     <link rel="canonical" href="<?= base_url() ?>">
 
     <!-- Favicon -->
