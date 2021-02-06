@@ -47,14 +47,15 @@ class Product extends BaseController
         $this->data['info'] = $product_model->find($id);
         $product_model->relation($this->data['info'], array("image", "image_other", 'categories'));
 
+
+        //echo "<pre>";
+        //print_r($this->data['info']);
+        //die();
         $categories = array_map(function ($item) {
             return $item->category_id;
         }, $this->data['info']->categories);
-        //echo "<pre>";
-        //print_r($categories);
-        //die();
         $this->data['products'] = $product_model->get_product_related($id, $categories);
-        
+
         $product_model->relation($this->data['products'], array("image"));
         //echo "<pre>";
         //print_r($this->data['products']);

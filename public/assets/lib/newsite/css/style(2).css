@@ -1,0 +1,161 @@
+/*
+Theme Name: ThucPham2
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 1.0.0
+*/
+
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+
+/*!
+ *  Font Awesome 4.4.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url('fonts/Pacifico-Regular.ttf');
+    font-display: wrap;
+}
+
+@font-face {
+    font-family: Baomoi;
+    src: url(fonts/baomoi/baomoi-light-2.0.2.woff2) format("woff2"), url(fonts/baomoi/baomoi-light-2.0.2.woff) format("woff");
+    font-display: wrap;
+}
+
+@font-face {
+    font-family: Baomoi;
+    src: url(fonts/baomoi/baomoi-light-italic-2.0.2.woff2) format("woff2"), url(fonts/baomoi/baomoi-light-italic-2.0.2.woff) format("woff");
+    font-display: wrap;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Baomoi;
+    src: url(fonts/baomoi/baomoi-regular-2.0.2.woff2) format("woff2"), url(fonts/baomoi/baomoi-regular-2.0.2.woff) format("woff");
+    font-display: wrap;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Baomoi;
+    src: url(fonts/baomoi/baomoi-regular-2.0.2.woff2) format("woff2"), url(fonts/baomoi/baomoi-regular-2.0.2.woff) format("woff");
+    font-display: wrap;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.section-title-main,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+.icon-box-text,
+.icon-box-text h2,
+.icon-box-text h3,
+.icon-box-text h4,
+.icon-box-text h5,
+.sidebar-menu .nav-sidebar li a,
+.col-inner,
+.text-center,
+.text-center h2,
+.text-center h3,
+.text-center h4,
+.text-center h5,
+.col-inner strong,
+.col-inner h3,
+.col-inner h4,
+.header-nav>li.menu-item,
+.header-nav>li.menu-item a,
+.header-nav li.menu-item,
+.header-nav li a,
+h1.entry-title,
+.widget-title,
+.col-inner h2,
+.col-inner h3,
+.col-inner h4,
+.col-inner h5,
+.col-inner h6,
+.top-bar-nav li.menu-item a,
+.account-item span,
+#header-contact li a span,
+h3.product-section-title,
+.woocommerce-breadcrumb.breadcrumbs,
+ul.product-tabs>li>a,
+.widget,
+.product-short-description,
+button.button,
+.product_meta span,
+h3.comment-reply-title,
+.html.custom,
+span.header-cart-title,
+.footer-secondary.pull-right,
+.utm-avo,
+.tab a span,
+.button,
+.searchform .search-field,
+.searchform .search-field::placeholder,
+.header-top li a>span,
+table tr th,
+table tr td,
+label,
+.form-row input,
+.form-row select,
+.form-row textarea,
+.mini_cart_item a,
+.mini_cart_item span,
+.woocommerce-mini-cart__total span,
+.tab-panels .panel.entry-content,
+.tab-panels .panel.entry-content p,
+.woocommerce-MyAccount-navigation-link a,
+.woocommerce-additional-fields h3,
+.woocommerce-billing-fields h3,
+.breadcrumbs a,
+#mega-menu-title,
+.woocommerce-info {
+    font-family: 'Baomoi';
+}
+
+.font-pacifico h1,
+.font-pacifico h2,
+.font-pacifico h3 {
+    font-family: 'Pacifico';
+    font-weight: normal;
+    line-height: normal;
+    text-transform: initial;
+    font-size: 30px;
+}
+
+.font-pacifico .block-product-title.moreviewoption h2 {
+    line-height: inherit;
+    font-size: inherit;
+}
+
+.font-pacifico .section-title span {
+    text-transform: initial;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('fonts/fontawesome-webfont.eot?v=4.4.0');
+    src: url('fonts/fontawesome-webfont.eot?#iefix&v=4.4.0') format('embedded-opentype'), url('fonts/fontawesome-webfont.woff2?v=4.4.0') format('woff2'), url('fonts/fontawesome-webfont.woff?v=4.4.0') format('woff'), url('/fonts/fontawesome-webfont.ttf?v=4.4.0') format('truetype'), url('fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+p.block-title {
+    text-transform: uppercase;
+    font-size: 20px !important;
+    color: #ff0000;
+    font-weight: bold;
+    line-height: 2em;
+    list-style: none;
+    margin-left: -10px !important;
+}

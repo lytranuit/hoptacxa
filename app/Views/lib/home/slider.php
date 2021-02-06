@@ -1,6 +1,8 @@
-<div class="home-banner-wrapper">
-    <div class="container">
-        <div class="home-banner">
+<section class="section" id="section_1004603606">
+    <!-- .section-bg -->
+
+    <div class="section-content relative">
+        <div class="container">
             <div class="c-slider">
                 <?php foreach ($sliders as $row) : ?>
                     <div class="single-banner">
@@ -12,4 +14,4 @@
             </div>
         </div>
     </div>
-</div>
+</section>

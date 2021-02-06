@@ -28,17 +28,6 @@ class HomeWidget
         return view("lib/home/page", $this->data);
     }
 
-    public function navbar()
-    {
-        $menu_model = model("MenuModel");
-        $this->data['menus'] = $menu_model->orderby("order", "asc")->findAll();
-
-        //echo "<pre>";
-        //print_r($this->data['pages']);
-        //die();
-        return view("lib/home/navbar", $this->data);
-    }
-
     public function product()
     {
         $Product_model = model("ProductModel");
@@ -63,31 +52,19 @@ class HomeWidget
         return view("lib/home/news", $this->data);
     }
 
-    public function footer()
+    public function news1()
     {
-        //return 1;
-        $option_model = model("OptionModel");
-        $this->data['options'] = $option_model->get_options_in(array("company_name", 'email', "mo_ta", "dia_chi", "hot_line"));
-
-        //$category_model->image($this->data['category']);
+        $news_model = model("NewsModel");
+        $this->data['news'] = $news_model->get_news(4, null, 0, 3);
+        $news_model->relation($this->data['news'], array("image"));
         //echo "<pre>";
-        //print_r($this->data['options']);
+        //print_r($this->data['news']);
         //die();
-        return view("lib/home/footer", $this->data);
+        return view("lib/home/news1", $this->data);
     }
 
-    public function chat()
-    {
-        //return 1;
-        //$option_model = model("OptionModel");
-        //$this->data['options'] = $option_model->get_options_in(array("fanpage"));
 
-        //$category_model->image($this->data['category']);
-        //echo "<pre>";
-        //print_r($this->data['options']);
-        //die();
-        return view("lib/home/chat", $this->data);
-    }
+
     public function category()
     {
         //return 1;

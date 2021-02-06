@@ -1,2 +1,2 @@
-<?= view_cell("\App\Libraries\HomeWidget::footer") ?>
-<?= view_cell("\App\Libraries\HomeWidget::chat") ?>
+<?= view_cell("\App\Libraries\FooterWidget::footer") ?>
+<?= view_cell("\App\Libraries\FooterWidget::chat") ?>
