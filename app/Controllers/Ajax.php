@@ -8,6 +8,10 @@ class Ajax extends BaseController
     {
         return view($this->data['content'], $this->data);
     }
+    public function cart()
+    {
+        
+    }
     function product()
     {
         $category_id = $this->request->getVar("category_id");
@@ -31,6 +35,7 @@ class Ajax extends BaseController
         $news_model->relation($this->data['news'], array("image", "user", "user_image"));
         return view("lib/ajax/news", $this->data);
     }
+
     function images()
     {
         $file_model = model("FileModel");

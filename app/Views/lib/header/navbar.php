@@ -91,11 +91,10 @@
                 <li class="header-search-form search-form html relative has-icon">
                     <div class="header-search-form-wrapper">
                         <div class="searchform-wrapper ux-search-box relative form-flat is-normal">
-                            <form role="search" method="get" class="searchform" action="https://gaoquy.vn/">
+                            <form role="search" method="get" class="searchform" action="<?= url_product_list(0) ?>">
                                 <div class="flex-row relative">
                                     <div class="flex-col flex-grow">
                                         <input type="search" class="search-field mb-0" name="s" value="" placeholder="Tìm kiếm sản phẩm" autocomplete="off">
-                                        <input type="hidden" name="post_type" value="product">
                                     </div>
                                     <!-- .flex-col -->
                                     <div class="flex-col">
@@ -126,11 +125,10 @@
             <li class="header-search-form search-form html relative has-icon">
                 <div class="header-search-form-wrapper">
                     <div class="searchform-wrapper ux-search-box relative form-flat is-normal">
-                        <form role="search" method="get" class="searchform" action="https://gaoquy.vn/">
+                        <form role="search" method="get" class="searchform" action="<?= url_product_list(0) ?>">
                             <div class="flex-row relative">
                                 <div class="flex-col flex-grow">
                                     <input type="search" class="search-field mb-0" name="s" value="" placeholder="Tìm kiếm sản phẩm" autocomplete="off">
-                                    <input type="hidden" name="post_type" value="product">
                                 </div><!-- .flex-col -->
                                 <div class="flex-col">
                                     <button type="submit" class="ux-search-submit submit-button secondary button icon mb-0">

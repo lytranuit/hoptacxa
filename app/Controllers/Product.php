@@ -8,9 +8,10 @@ class Product extends BaseController
 {
     public function index()
     {
-
         $category_model = model("CategoryModel");
         $category_id = $this->request->getVar("category_id") ?? 0;
+        $keyword = $this->request->getVar("s") ?? "";
+        $this->data['keyword'] = $keyword;
         $this->data['category_id'] = $category_id;
         if ($category_id > 0) {
             $this->data['category'] = $category_model->find($category_id);
@@ -29,6 +30,7 @@ class Product extends BaseController
     {
 
         $category_model = model("CategoryModel");
+        $this->data['keyword'] = "";
         $this->data['category_id'] = $category_id;
         $this->data['category'] = $category_model->find($category_id);
         $this->data['title'] =   $this->data['category']->{pick_language($this->data['category'])} . $this->data['title'];
@@ -39,7 +41,6 @@ class Product extends BaseController
         //die();
         return view($this->data['content'], $this->data);
     }
-
     //--------------------------------------------------------------------
     public function view($id)
     {

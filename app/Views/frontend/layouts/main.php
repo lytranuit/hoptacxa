@@ -706,6 +706,17 @@
         .label-popular.menu-item>a:after {
             content: "Popular";
         }
+
+        .quantity input.number {
+            max-width: 2.5em;
+            width: 2.5em;
+            text-align: center;
+            border-radius: 0 !important;
+            -webkit-appearance: textfield;
+            -moz-appearance: textfield;
+            appearance: textfield;
+            font-size: 1em;
+        }
     </style>
 
 
@@ -757,6 +768,10 @@
     <script type="text/javascript" src="<?= base_url('assets/lib/flatsome/hoverIntent.min.js') ?>"></script>
     <script type="text/javascript" src="<?= base_url('assets/lib/flatsome/flatsome.js') ?>"></script>
     <script type="text/javascript" src="<?= base_url('assets/lib/flatsome/maxmegamenu.js') ?>"></script>
+    <script type="text/javascript" src="<?= base_url('assets/lib/autoNumberic/autoNumberic.js') ?>"></script>
+    <script type="text/javascript" src="<?= base_url('assets/lib/cookie/jquery.cookies.2.2.0.min.js') ?>"></script>
+    <script type="text/javascript" src="<?= base_url('assets/js/cart.js') ?>"></script>
+
     <!--<script type="text/javascript" src="<?= base_url('assets/lib/fancybox/jquery.fancybox.min.js') ?>"></script>
     <script type="text/javascript" src="<?= base_url('assets/js/frontend.js') ?>"></script>
     <script type="text/javascript" src="<?= base_url('assets/js/app.min.js') ?>"></script>-->

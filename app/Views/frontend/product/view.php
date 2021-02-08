@@ -27,7 +27,7 @@
         <div class="row content-row row-divided row-large row-reverse">
 
             <?= $this->include('frontend/layouts/_right') ?>
-           
+
             <div class="col large-9">
                 <div class="product-main">
                     <div class="row">
@@ -69,7 +69,7 @@
                         </div>
 
 
-                        <div class="product-info summary entry-summary col col-fit product-summary">
+                        <div class="product-info summary entry-summary col col-fit product-summary product" data-id="<?= $info->id ?>">
                             <h1 class="product-title product_title entry-title">
                                 <?= $info->{pick_language($info, "name_")} ?></h1>
 
@@ -97,13 +97,13 @@
                             </div>
                             <div class="woocommerce-variation-add-to-cart variations_button woocommerce-variation-add-to-cart-enabled">
 
-                                <div class="quantity buttons_added">
+                                <div class="quantity buttons_added number-widget">
                                     <input type="button" value="-" class="minus button is-form">
-                                    <input type="number" id="quantity_601a5e016510a" class="input-text qty text" step="1" min="1" max="" name="quantity" value="1" title="SL" size="4" inputmode="numeric">
+                                    <input type="text" id="quantity_601a5e016510a" class="input-text qty text number text-center" value="1">
                                     <input type="button" value="+" class="plus button is-form">
                                 </div>
 
-                                <button type="submit" class="single_add_to_cart_button button alt">Mua hàng</button>
+                                <button type="submit" class="single_add_to_cart_button button alt add-cart">Mua hàng</button>
                             </div>
                         </div><!-- .summary -->
                     </div><!-- .row -->

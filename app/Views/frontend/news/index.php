@@ -2,61 +2,91 @@
 
 
 <?= $this->section('content') ?>
+<div class="banner has-hover" id="banner-500135139">
+    <div class="banner-inner fill">
+        <div class="banner-bg fill">
+            <div class="bg fill bg-fill  bg-loaded"></div>
+            <div class="overlay"></div>
+        </div><!-- bg-layers -->
+        <div class="banner-layers container">
+            <div class="fill banner-link"></div>
+            <div id="text-box-117304511" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
+                <div class="text dark">
 
-<div class="breadcrumb-wrapper">
-    <div class="container">
-        <ol class="breadcrumb">
-            <li><a href="<?= base_url() ?>">Trang chủ</a></li>
-            <li class="active">Tin tức</li>
-            <?php if (isset($tag)) : ?>
-                <li class="active"><?= $tag->{pick_language($tag, "name_")} ?></li>
-            <?php endif ?>
-        </ol>
-    </div>
+                    <div class="text-inner text-center">
+
+                        <h2 class="uppercase">
+                            <?php if (isset($tag)) : ?>
+                                <?= $tag->{pick_language($tag, "name_")} ?>
+                            <?php else: ?>
+                                Bếp Gạo
+                            <?php endif ?>
+                        </h2>
+                    </div>
+                </div><!-- text-box-inner -->
+
+                <style scope="scope">
+                    #text-box-117304511 {
+                        width: 60%;
+                    }
+
+                    #text-box-117304511 .text {
+                        font-size: 100%;
+                    }
+                </style>
+            </div><!-- text-box -->
+
+        </div><!-- .banner-layers -->
+    </div><!-- .banner-inner -->
+
+
+    <style scope="scope">
+        #banner-500135139 {
+            padding-top: 150px;
+        }
+
+        #banner-500135139 .bg.bg-loaded {
+            background-image: url(<?= base_url("assets/images/bep-gao-1024x440.jpg") ?>);
+        }
+
+        #banner-500135139 .overlay {
+            background-color: rgba(0, 0, 0, .5);
+        }
+
+        #banner-500135139 .bg {
+            background-position: 45% 0%;
+        }
+
+
+        @media (min-width:550px) {
+
+            #banner-500135139 {
+                padding-top: 300px;
+            }
+
+        }
+    </style>
 </div>
-<div class="container">
-    <div class="c-categorybar">
-        <div class="c-categorybar__top">
-            <a href="#" id="Toggle__Search" class="c-categorybar__toggle" data-toggle="collapse">
-                <i class="fas fa-search toggle-icon"></i>
-            </a>
-            <div class="toggle-search">
-                <input type="text" id="input-search-product" class="search-input" placeholder="Tìm kiếm">
-            </div>
-            <div class="toggle-label hidden">Danh mục sản phẩm</div>
-            <a href="#Collapse__ProductCategory" class="c-categorybar__toggle collapsed" data-toggle="collapse">
-                <i class="fas fa-bars toggle-icon"></i>
-            </a>
-        </div>
+<div class="row row-small" id="row-1501562783">
+    <div class="col medium-9 small-12 large-9 small-col-first">
+        <div class="col-inner" style="background-color:rgb(249, 249, 249);padding:10px 10px 0px 10px;margin:0px 0px -50px 0px;">
+            <div class="row" id="row-1534967448">
+                <div class="col small-12 large-12">
+                    <div class="col-inner">
+                        <div class="row large-columns-1 medium-columns-1 small-columns-1" id="list-products">
 
-        <div id="Collapse__ProductCategory" class="collapse">
-            <div>
-                <div class="panel-group panel-group--cats" id="Accordion__ProductCats" role="tablist">
-                    <div class="panel panel-default">
-                        <?php foreach ($tags as $row) : ?>
-                            <div class="panel-heading" role="tab">
-                                <div class="panel-title">
-                                    <a href="<?= url_news_list($row->id) ?>" class="cat-link__label <?= isset($tag) && $row->id == $tag->id ? 'disabled' : '' ?>">
-                                        <?= $row->{pick_language($row, "name_")} ?>
-                                    </a>
-                                </div>
+                        </div>
+                        <div class="c-more-products col small-12 large-12" id="button-load-more">
+                            <div class="text-center"><a href="javascript:;void(0)" class="button is-gloss is-small mb-0">Xem thêm</a>
                             </div>
-                        <?php endforeach ?>
-
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="c-list-products">
-        <div class="row" id="list-products">
+    <?= $this->include('frontend/layouts/_right') ?>
 
-        </div>
-    </div>
-    <div class="c-more-products" id="button-load-more">
-        <div class="text-center"><a href="javascript:;void(0)" class="btn-see-more btn">Xem thêm</a>
-        </div>
-    </div>
 </div>
 <?= $this->endSection() ?>
 
