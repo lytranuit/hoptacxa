@@ -22,12 +22,12 @@
                     </ul>
                 </div>
                 <!-- Left Elements -->
-                <div class="flex-col hide-for-medium flex-left
+                <!--<div class="flex-col hide-for-medium flex-left
             flex-grow">
                     <ul class="header-nav header-nav-main nav nav-left  nav-size-medium nav-spacing-large nav-uppercase">
                         <li class="html custom html_topbar_left"><img src="<?= base_url("assets/images/giao-hang-tan-noi-1024x286.png") ?>" alt="Smiley face" height="160" width="408"></li>
                     </ul>
-                </div>
+                </div>-->
                 <!-- Right Elements -->
                 <div class="flex-col hide-for-medium flex-right">
                     <ul class="header-nav header-nav-main nav nav-right  nav-size-medium nav-spacing-large nav-uppercase">

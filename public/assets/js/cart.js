@@ -58,9 +58,8 @@ $(document).ready(function() {
         });
         if (index != -1) {
             cart[index].qty = parseInt(cart[index].qty) + qty;
-            cart[index].unit = unit;
         } else {
-            cart.push({ id: id, qty: qty, unit: unit });
+            cart.push({ id: id, qty: qty });
         }
         data_cart['details'] = cart;
         $.cookies.set('DATA_CART', data_cart);
@@ -69,22 +68,25 @@ $(document).ready(function() {
         //init_cart_icon()
 
 
-        $.toast({
-                // heading: 'Warning',
-                text: cart_alert,
-                position: 'top-right',
-                stack: false,
-                // showHideTransition: 'plain',
-                icon: 'success'
-            })
-            // alert(cart_alert);
+        swal({
+            title: "",
+            type: 'success',
+            showConfirmButton: true,
+            confirmButtonText: 'Giỏ hàng',
+            timer: 1500,
+        }, function(isConfirm) {
+            if (isConfirm) {
+                location.href = path + "cart";
+            }
+            swal.close();
+        });
         return false;
     });
 
     $('.btn-up').click(function(e) {
         e.preventDefault();
         var parent = $(this).parents(".product");
-        var input_qty = $('.quantity', parent);
+        var input_qty = $('.input_qty', parent);
         var currentVal = parseInt(input_qty.val());
         if (!isNaN(currentVal)) {
             input_qty.val(currentVal + 1);
@@ -96,7 +98,7 @@ $(document).ready(function() {
     $(".btn-down").click(function(e) {
         e.preventDefault();
         var parent = $(this).parents(".product");
-        var input_qty = $('.quantity', parent);
+        var input_qty = $('.input_qty', parent);
 
         var currentVal = parseInt(input_qty.val());
         if (!isNaN(currentVal) && currentVal > 0) {
@@ -106,7 +108,7 @@ $(document).ready(function() {
         }
         input_qty.trigger("change");
     });
-    $(".quantity").change(function() {
+    $(".input_qty").change(function() {
         var value = $(this).val();
         var parent = $(this).parents(".product");
         var data_cart = $.cookies.get('DATA_CART') || {};
@@ -126,9 +128,10 @@ $(document).ready(function() {
         $("#cboxOverlay").show();
         location.reload();
     });
-    $(".remove_product").click(function(e) {
+
+    $(document).on("click", ".remove_product", function(e) {
         e.preventDefault();
-        if (confirm(remove_cart) == true) {
+        if (confirm("Xóa sản phẩm này") == true) {
             var parent = $(this).parents(".product");
             var id = parent.data("id");
             var data_cart = $.cookies.get('DATA_CART') || {};
@@ -152,12 +155,12 @@ $(document).ready(function() {
 })
 
 function initCart() {
-    var cart = $.cookies.get('CART');
+    var cart = $.cookies.get('DATA_CART');
     var count = 0;
     var amount = 0;
     if (cart) {
         var self = this;
-        $.each(cart, function(i, obj) {
+        $.each(cart['details'], function(i, obj) {
             count += parseInt(obj.qty);
 
         });

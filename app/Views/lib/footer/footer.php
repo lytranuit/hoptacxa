@@ -182,11 +182,10 @@
                                 <h2 class="widgettitle">Thông tin</h2>
                                 <div class="menu-lien-ket-nhanh-container">
                                     <ul id="menu-lien-ket-nhanh" class="menu">
-                                        <li id="menu-item-972" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-972"><a href="https://gaoquy.vn/phuong-thuc-dat-hang/"><i class="fas fa-angle-right"></i> Phương thức đặt hàng</a></li>
-                                        <li id="menu-item-973" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-973"><a href="https://gaoquy.vn/phuong-thuc-thanh-toan/"><i class="fas fa-angle-right"></i> Phương thức thanh toán</a></li>
-                                        <li id="menu-item-971" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-971"><a href="https://gaoquy.vn/giao-hang-va-doi-hang/"><i class="fas fa-angle-right"></i> Giao hàng và đổi hàng</a></li>
-                                        <li id="menu-item-1237" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1237"><a href="https://gaoquy.vn/chinh-sach-bao-mat/"><i class="fas fa-angle-right"></i> Chính sách bảo mật thông tin</a></li>
-                                        <li id="menu-item-1240" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1240"><a href="https://gaoquy.vn/dieu-khoan-su-dung/"><i class="fas fa-angle-right"></i> Điều khoản sử dụng</a></li>
+                                        <li id="menu-item-973" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-973"><a href="<?= url_page(4) ?>"><i class="fas fa-angle-right"></i> Phương thức thanh toán</a></li>
+                                        <li id="menu-item-971" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-971"><a href="<?= url_page(5) ?>"><i class="fas fa-angle-right"></i> Giao hàng và đổi hàng</a></li>
+                                        <li id="menu-item-1237" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1237"><a href="<?= url_page(6) ?>"><i class="fas fa-angle-right"></i> Chính sách bảo mật thông tin</a></li>
+                                        <li id="menu-item-1240" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1240"><a href="<?= url_page(7) ?>"><i class="fas fa-angle-right"></i> Điều khoản sử dụng</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -196,7 +195,7 @@
                     </div>
                 </div>
                 <?= view_cell("\App\Libraries\FooterWidget::best_sale") ?>
-                
+
                 <div class="col medium-3 small-12 large-3">
                     <div class="col-inner">
 

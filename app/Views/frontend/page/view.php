@@ -2,44 +2,65 @@
 
 
 <?= $this->section('content') ?>
+<div id="content" role="main" class="content-area">
+    <div class="banner has-hover" id="banner-646177447">
+        <div class="banner-inner fill">
+            <div class="banner-bg fill">
+                <div class="bg fill bg-fill  bg-loaded"></div>
+                <div class="overlay"></div>
+            </div><!-- bg-layers -->
+            <div class="banner-layers container">
+                <div class="fill banner-link"></div>
+                <div id="text-box-393876737" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
+                    <div class="text dark">
 
-<div class="breadcrumb-wrapper">
-    <div class="container">
-        <ol class="breadcrumb">
-            <li><a href="<?= base_url() ?>">Trang chủ</a></li>
+                        <div class="text-inner text-center">
 
-            <li class="active"><?= $info->{pick_language($info, "title_")} ?></li>
-        </ol>
-    </div>
-</div>
-<div class="c-single-post c-single-post--news">
-    <div class="container">
-        <div class="single-news-post">
-            <div class="row">
-                <div class="col-xs-10">
-                    <h1 class="post-title"><?= $info->{pick_language($info, "title_")} ?></h1>
-                </div>
-                <div class="col-xs-2">
-                    <div class="button-share">
-                        <div id="fb-share-button" class="pull-right">
-                            <i class="fa fa-share" aria-hidden="true"></i>
+                            <h3 class="uppercase"><strong><?= $info->{pick_language($info, "title_")} ?></strong></h3>
                         </div>
-                    </div>
-                </div>
-            </div>
+                    </div><!-- text-box-inner -->
+
+                    <style scope="scope">
+                        #text-box-393876737 {
+                            width: 60%;
+                        }
+
+                        #text-box-393876737 .text {
+                            font-size: 100%;
+                        }
+                    </style>
+                </div><!-- text-box -->
+
+            </div><!-- .banner-layers -->
+        </div><!-- .banner-inner -->
 
 
-            <div class="post-meta"><?= date("Y-m-d H:i:s", strtotime($info->date)) ?></div>
+        <style scope="scope">
+            #banner-646177447 {
+                padding-top: 300px;
+            }
+
+            #banner-646177447 .bg.bg-loaded {
+                background-image: url(https://gaoquy.vn/wp-content/uploads/2019/04/bai-viet-3.jpg);
+            }
+
+            #banner-646177447 .overlay {
+                background-color: rgba(0, 0, 0, .5);
+            }
+
+            #banner-646177447 .bg {
+                background-position: 69% 29%;
+            }
+        </style>
+    </div><!-- .banner -->
 
 
-
-            <div class="post-content">
+    <div class="row" id="row-1119646710">
+        <div class="col small-12 large-12">
+            <div class="col-inner">
                 <?= $info->{pick_language($info, "content_")} ?>
             </div>
         </div>
-
-
-
     </div>
 </div>
 <?= $this->endSection() ?>
@@ -47,7 +68,6 @@
 
 <?= $this->section("style") ?>
 
-<link rel="stylesheet" href="<?= base_url("assets/lib/ckeditor/contents.css") ?> " ?>
 <?= $this->endSection() ?>
 
 <?= $this->section("script") ?>

@@ -10,7 +10,8 @@ class Ajax extends BaseController
     }
     public function cart()
     {
-        
+        $this->data['cart'] = sync_cart();
+        return view("lib/ajax/cart", $this->data);
     }
     function product()
     {

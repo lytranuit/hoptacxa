@@ -59,6 +59,7 @@
     <link rel="stylesheet" id="flatsome-shop-css" href="<?= base_url('assets/lib/newsite/css/flatsome-shop.css') ?>" type="text/css" media="all">
     <link rel="stylesheet" id="flatsome-style-css" href="<?= base_url('assets/lib/newsite/css/style(2).css') ?>" type="text/css" media="all">
     <link rel="stylesheet" id="slick-style-css" type="text/css" href="<?= base_url('assets/lib/slick/slick.css') ?>" />
+    <link rel="stylesheet" id="sweetalert-style-css" type="text/css" href="<?= base_url('assets/lib/sweetalert/sweetalert.css') ?>" />
 
 
     <style id="custom-css" type="text/css">
@@ -764,6 +765,7 @@
     <script type="text/javascript" src="<?= base_url('assets/lib/jquery/jquery.min.js') ?>"></script>
     <script type="text/javascript" src="<?= base_url('assets/lib/jquery/jquery-migrate.min.js') ?>"></script>
     <script type="text/javascript" src="<?= base_url('assets/lib/bootstrap3/bootstrap.js') ?>"></script>
+    <script type="text/javascript" src="<?= base_url('assets/lib/sweetalert/sweetalert.min.js') ?>"></script>
     <script type="text/javascript" src="<?= base_url('assets/lib/slick/slick.js') ?>"></script>
     <script type="text/javascript" src="<?= base_url('assets/lib/flatsome/hoverIntent.min.js') ?>"></script>
     <script type="text/javascript" src="<?= base_url('assets/lib/flatsome/flatsome.js') ?>"></script>
