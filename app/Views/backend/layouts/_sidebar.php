@@ -67,6 +67,16 @@
                         <?= lang("Custom.product_category") ?>
                     </a>
                 </li>
+
+                <li class="app-sidebar__heading"><?= lang("Custom.sales") ?></li>
+
+                <li>
+                    <a href="<?= base_url("admin/sale") ?>">
+                        <i class="metismenu-icon"></i>
+                        <?= lang("Custom.sales") ?>
+                    </a>
+                </li>
+
                 <li class="app-sidebar__heading"><?= lang("Custom.setting") ?></li>
                 <li>
                     <a href="<?= base_url("admin/settings") ?>">
@@ -91,6 +101,12 @@
                     <a href="<?= base_url("admin/menu") ?>">
                         <i class="metismenu-icon"></i>
                         <?= lang("Custom.menu") ?>
+                    </a>
+                </li>
+                <li>
+                    <a href="<?= base_url("admin/contact") ?>">
+                        <i class="metismenu-icon"></i>
+                        <?= lang("Custom.contact") ?>
                     </a>
                 </li>
                 <li>

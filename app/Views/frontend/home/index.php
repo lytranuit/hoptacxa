@@ -589,7 +589,7 @@
 
 
                     <?= view_cell("\App\Libraries\HomeWidget::news1") ?>
-                   
+
                 </div>
                 <div class="col medium-6 small-12 large-6">
                     <div class="col-inner" style="margin:0px 0px -50px 0px;">
@@ -614,13 +614,14 @@
 
                                                 <div role="form" class="wpcf7" id="wpcf7-f6-p2-o1" lang="vi" dir="ltr">
                                                     <div class="screen-reader-response"></div>
-                                                    <form action="https://gaoquy.vn/#wpcf7-f6-p2-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+                                                    <form action="<?= base_url("home/contact") ?>" method="post" class="wpcf7-form">
 
-                                                        <p><span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Họ và tên *"></span><br>
-                                                            <span class="wpcf7-form-control-wrap email-570"><input type="email" name="email-570" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Địa chỉ mail *"></span><br>
-                                                            <span class="wpcf7-form-control-wrap dia-chi-lien-he"><input type="text" name="dia-chi-lien-he" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="Địa chỉ"></span><br>
-                                                            <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Nội dung liên hệ"></textarea></span> <br>
-                                                            <input type="submit" value="Gửi liên hệ" class="wpcf7-form-control wpcf7-submit"><span class="ajax-loader"></span>
+                                                        <p>
+                                                            <span class="wpcf7-form-control-wrap your-name"><input type="text" name="name" required value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Họ và tên *"></span><br>
+                                                            <span class="wpcf7-form-control-wrap email-570"><input type="email" name="email" required value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Địa chỉ mail *"></span><br>
+                                                            <span class="wpcf7-form-control-wrap dia-chi-lien-he"><input type="text" name="address" required value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="Địa chỉ"></span><br>
+                                                            <span class="wpcf7-form-control-wrap your-message"><textarea name="notes" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Nội dung liên hệ"></textarea></span> <br>
+                                                            <input type="submit" value="Gửi liên hệ" name="dangtin" class="wpcf7-form-control wpcf7-submit"><span class="ajax-loader"></span>
                                                         </p>
                                                     </form>
                                                 </div>

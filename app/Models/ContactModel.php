@@ -2,22 +2,26 @@
 
 namespace App\Models;
 
-use CodeIgniter\Database\BaseBuilder;
 use CodeIgniter\Model;
 
-class SaleModel extends Model
+class ContactModel extends Model
 {
-    protected $table      = 'htx_sale';
+    protected $table      = 'htx_contact';
     protected $primaryKey = 'id';
 
-    protected $returnType     = 'App\Entities\Sale';
+    protected $returnType     = 'App\Entities\Contact';
     protected $useSoftDeletes = true;
 
-    protected $allowedFields = ['code', 'order_date', 'name', 'phone', 'email', 'address', 'amount', 'notes', 'user_id', 'total_amount', 'status'];
+    protected $allowedFields = ['deleted', 'name', 'phone', 'address', 'email', 'date', 'notes'];
 
+    //protected $useTimestamps = false;
+    //protected $createdField  = 'created_at';
+    //protected $updatedField  = 'updated_at';
+    //protected $deletedField  = 'deleted_at';
 
-    
-
+    //protected $validationRules    = [];
+    //protected $validationMessages = [];
+    //protected $skipValidation     = true;
     function create_object($data)
     {
         $db = $this->db;
@@ -36,12 +40,4 @@ class SaleModel extends Model
 
         return $obj;
     }
-    //protected $useTimestamps = false;
-    //protected $createdField  = 'created_at';
-    //protected $updatedField  = 'updated_at';
-    //protected $deletedField  = 'deleted_at';
-
-    //protected $validationRules    = [];
-    //protected $validationMessages = [];
-    protected $skipValidation     = true;
 }

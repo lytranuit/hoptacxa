@@ -176,6 +176,8 @@ $lang['product_category'] = "Danh mục sản phẩm";
 $lang['news_category'] = "Danh mục tin tức";
 $lang['setting'] = "Cài đặt";
 $lang['page'] = "Trang";
+$lang['sales'] = "Đơn hàng";
+$lang['contact'] = "Liên hệ";
 return $lang;
 
 
