@@ -60,7 +60,7 @@
                                                 <p><span style="font-weight: 400;">Lúa gạo trồng theo hữu cơ có lợi rất nhiều, vừa được đất tơi xốp, sản phẩm an toàn cho sức khỏe, và chính người nông dân không bị nhiễm độc.</span></p>
                                                 <p><span style="font-weight: 400;">Trong một nhân duyên đến với vùng núi Đắk Lắk, chúng tôi may mắn biết đến ruộng lúa màu mỡ được trời ban tặng cho người dân nơi đây. Cánh đồng lúa được trồng theo phương pháp hữu cơ, và được bao bọc bởi những thảm rừng tự nhiên, mang đến dòng nước suối tươi mát len lỏi vào cánh đồng cho bà con trồng lúa và hoa màu. Hàng năm lũ tràn về mang theo phù sa cho đồng ruộng quanh năm tươi tốt, phì nhiêu.&nbsp;</span></p>
                                                 <p><span style="font-weight: 400;">Ở đây, không khí rất trong lành. Trong những ngày tôi đến thăm nơi này, sáng dậy bước ra ngoài trời, chỉ cần hít thở không khí mát rượi và tập vài động tác khí công là người cảm thấy tràn đầy năng lượng cho một ngày mới vui vẻ. Nhờ vậy mà người dân nơi đây luôn vui vẻ và thân thiện.</span></p>
-                                                <a href="https://gaoquy.vn/tam-thu" target="_self" class="button primary is-gloss" style="border-radius:10px;">
+                                                <a href="" target="_self" class="button primary is-gloss" style="border-radius:10px;">
                                                     <span>Xem thêm</span>
                                                 </a>
 
@@ -94,7 +94,7 @@
                                                 <h3 class="uppercase"><strong>MÙA VÀNG TRÊN CÁNH ĐỒNG LÚA HỮU CƠ </strong></h3>
                                                 <p><span style="font-weight: 400;">Lúa gạo trồng theo hữu cơ có lợi rất nhiều, vừa được đất tơi xốp, sản phẩm an toàn cho sức khỏe, và chính người nông dân không bị nhiễm độc.</span></p>
                                                 <p><span style="font-weight: 400;">Trong một nhân duyên đến với vùng núi Đắk Lắk, chúng tôi may mắn biết đến ruộng lúa màu mỡ được trời ban tặng cho người dân nơi đây. Cánh đồng lúa được trồng theo phương pháp hữu cơ, và được bao bọc bởi những thảm rừng tự nhiên, mang đến dòng nước suối tươi mát len lỏi vào cánh đồng cho bà con trồng lúa và hoa màu. Hàng năm lũ tràn về mang theo phù sa cho đồng ruộng quanh năm tươi tốt, phì nhiêu.</span></p>
-                                                <a rel="noopener noreferrer" href="https://gaoquy.vn/ve-chung-toi" target="_blank" class="button secondary" style="border-radius:10px;">
+                                                <a rel="noopener noreferrer" href="" target="_blank" class="button secondary" style="border-radius:10px;">
                                                     <span>Xem thêm</span>
                                                 </a>
 
@@ -130,7 +130,7 @@
                                                 <p><span style="font-weight: 400;">Trong một nhân duyên đến với vùng núi Đắk Lắk, chúng tôi may mắn biết đến ruộng lúa màu mỡ được trời ban tặng cho người dân nơi đây. Cánh đồng lúa được trồng theo phương pháp hữu cơ, và được bao bọc bởi những thảm rừng tự nhiên, mang đến dòng nước suối tươi mát len lỏi vào cánh đồng cho bà con trồng lúa và hoa màu. Hàng năm lũ tràn về mang theo phù sa cho đồng ruộng quanh năm tươi tốt, phì nhiêu.&nbsp;</span></p>
                                                 <p><span style="font-weight: 400;">Ở đây, không khí rất trong lành. Trong những ngày tôi đến thăm nơi này, sáng dậy bước ra ngoài trời, chỉ cần hít thở không khí mát rượi và tập vài động tác khí công là người cảm thấy tràn đầy năng lượng cho một ngày mới</span></p>
                                                 <p></p>
-                                                <a rel="noopener noreferrer" href="https://gaoquy.vn/ve-chung-toi" target="_blank" class="button secondary" style="border-radius:10px;">
+                                                <a rel="noopener noreferrer" href="" target="_blank" class="button secondary" style="border-radius:10px;">
                                                     <span>Xem thêm</span>
                                                 </a>
 
@@ -561,7 +561,7 @@
             }
 
             #section_191242925 .section-bg.bg-loaded {
-                background-image: url(https://gaoquy.vn/wp-content/uploads/2020/04/gao-lut-la-hat-ngon-troi.jpg);
+                background-image: url(<?= base_url("assets/images/gao-lut-la-hat-ngon-troi.jpg") ?>);
             }
         </style>
     </section>
@@ -654,7 +654,7 @@
                                 }
 
                                 #banner-739192939 .bg.bg-loaded {
-                                    background-image: url(https://gaoquy.vn/wp-content/uploads/2020/03/gao-quy-lam-gi-1024x576.jpg);
+                                    background-image: url(<?= base_url("assets/images/gao-quy-lam-gi-1024x576.jpg") ?>);
                                 }
                             </style>
                         </div>
@@ -679,7 +679,7 @@
             }
 
             #section_1585802830 .section-bg.bg-loaded {
-                background-image: url(https://gaoquy.vn/wp-content/uploads/2020/03/banner-5.jpg);
+                background-image: url(<?= base_url("assets/images/banner-5.jpg") ?>);
             }
         </style>
     </section>

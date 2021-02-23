@@ -33,7 +33,7 @@
                     <ul class="header-nav header-nav-main nav nav-right  nav-size-medium nav-spacing-large nav-uppercase">
                         <li class="cart-item has-icon">
                             <div class="header-button">
-                                <a href="https://gaoquy.vn/gio-hang/" class="header-cart-link off-canvas-toggle nav-top-link icon button round is-outline is-small" data-open="#cart-popup" data-class="off-canvas-cart" title="Giỏ hàng" data-pos="right">
+                                <a href="<?= base_url("cart") ?>" class="header-cart-link off-canvas-toggle nav-top-link icon button round is-outline is-small" data-open="#cart-popup" data-class="off-canvas-cart" title="Giỏ hàng" data-pos="right">
 
                                     <!--<span class="header-cart-title">
                                         <span class="cart-price"><span class="woocommerce-Price-amount amount">45.000&nbsp;<span class="woocommerce-Price-currencySymbol">₫</span></span>
@@ -57,7 +57,7 @@
                                     </div>
                                     <div class="widget_shopping_cart_content">
 
-                                    
+
                                     </div>
                                     <div class="cart-sidebar-content relative"></div>
                                 </div>
@@ -73,7 +73,7 @@
                         <li class="cart-item has-icon">
 
                             <div class="header-button">
-                                <a href="https://gaoquy.vn/gio-hang/" class="header-cart-link off-canvas-toggle nav-top-link icon button round is-outline is-small" data-open="#cart-popup" data-class="off-canvas-cart" title="Giỏ hàng" data-pos="right">
+                                <a href="<?= base_url("cart") ?>" class="header-cart-link off-canvas-toggle nav-top-link icon button round is-outline is-small" data-open="#cart-popup" data-class="off-canvas-cart" title="Giỏ hàng" data-pos="right">
 
                                     <span class="image-icon header-cart-icon" data-icon-label="1">
                                         <img class="cart-img-icon" alt="Giỏ hàng" src="<?= base_url("assets/images/cart-small.png") ?>">

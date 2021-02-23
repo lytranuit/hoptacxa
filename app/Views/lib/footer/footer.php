@@ -202,8 +202,8 @@
                         <ul class="sidebar-wrapper ul-reset">
                             <li id="text-3" class="widget widget_text">
                                 <h2 class="widgettitle">Facebook</h2>
-                                <div class="textwidget">
-
+                                <div class="textwidget" style="width:340px;">
+                                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FG%25E1%25BA%25A1o-%25C4%2590%25E1%25BA%25A5t-Ph%25C3%25BA-102395801868119%2F&tabs=events&width=340&height=244&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=724049858115617" width="340" height="244" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                                 </div>
                             </li>
                         </ul>
@@ -232,7 +232,7 @@
     </section>
 
     <!-- .absolute-footer -->
-    <a href="https://gaoquy.vn/#top" class="back-to-top button icon invert plain fixed bottom z-1 is-outline round" id="top-link"><i class="fas fa-angle-up"></i></a>
+    <a href="<?= base_url("#top") ?>" class="back-to-top button icon invert plain fixed bottom z-1 is-outline round" id="top-link"><i class="fas fa-angle-up"></i></a>
 
 </footer>
 <div class="hotline-phone-ring-wrap">

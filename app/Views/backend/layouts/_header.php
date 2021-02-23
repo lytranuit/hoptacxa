@@ -1,6 +1,6 @@
 <div class="app-header header-shadow">
     <div class="app-header__logo">
-        <div class="logo-src"><img src="<?= base_url() ?>public/img/logo.png" width="150" /></div>
+        <div class="logo-src"><img src="<?= base_url("assets/images/logo.webp") ?>" width="50" /></div>
         <div class="header__pane ml-auto">
             <div>
                 <button type="button" class="hamburger close-sidebar-btn hamburger--elastic" data-class="closed-sidebar">
@@ -51,7 +51,7 @@
                                     <i class="fa fa-angle-down ml-2 opacity-8"></i>
                                 </a>
                                 <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu dropdown-menu-right">
-                                    <a type="button" tabindex="0" class="dropdown-item" href="<?= route_to("logout") ?>"><?= lang("logout") ?></a>
+                                    <a type="button" tabindex="0" class="dropdown-item" href="<?= route_to("logout") ?>"><?= lang("Custom.logout") ?></a>
                                 </div>
                             </div>
                         </div>

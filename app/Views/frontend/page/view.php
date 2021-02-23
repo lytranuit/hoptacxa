@@ -41,7 +41,7 @@
             }
 
             #banner-646177447 .bg.bg-loaded {
-                background-image: url(https://gaoquy.vn/wp-content/uploads/2019/04/bai-viet-3.jpg);
+                background-image: url(<?= base_url("assets/images/bai-viet-3.jpg") ?>);
             }
 
             #banner-646177447 .overlay {

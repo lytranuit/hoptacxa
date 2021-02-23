@@ -502,7 +502,7 @@
         }
 
         .footer-1 {
-            background-image: url('https://gaoquy.vn/wp-content/uploads/2020/04/footer-background.jpg');
+            background-image: url('<?= base_url("assets/images/footer-background.jpg") ?>');
         }
 
         .footer-1 {
@@ -747,7 +747,7 @@
     <script type="text/javascript">
         /* <![CDATA[ */
         var flatsomeVars = {
-            "ajaxurl": "https:\/\/gaoquy.vn\/wp-admin\/admin-ajax.php",
+            "ajaxurl": "",
             "rtl": "",
             "sticky_height": "70",
             "user": {
