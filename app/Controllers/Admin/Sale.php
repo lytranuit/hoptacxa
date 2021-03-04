@@ -17,14 +17,14 @@ class Sale extends BaseController
     { /////// trang ca nhan
         if (isset($_POST['dangtin'])) {
 
-            $sale_model = model("saleModel");
+            $sale_model = model("SaleModel");
             $data = $this->request->getPost();
             $obj = $sale_model->find($id);
             $obj->fill($data);
             $sale_model->save($obj);
             return redirect()->to(base_url('admin/sale'));
         } else {
-            $sale_model = model("saleModel");
+            $sale_model = model("SaleModel");
             $sale_line_model = model("saleLineModel");
             $product_model = model("ProductModel");
             $tin = $sale_model->where(array('id' => $id))->asObject()->first();
@@ -43,7 +43,7 @@ class Sale extends BaseController
 
     public function remove($id)
     { /////// trang ca nhan
-        $sale_model = model("saleModel");
+        $sale_model = model("SaleModel");
         $sale_model->delete($id);
         header('Location: ' . $_SERVER['HTTP_REFERER']);
         exit;
@@ -51,7 +51,7 @@ class Sale extends BaseController
 
     public function table()
     {
-        $sale_model = model("saleModel");
+        $sale_model = model("SaleModel");
         $limit = $this->request->getVar('length');
         $start = $this->request->getVar('start');
         $page = ($start / $limit) + 1;
