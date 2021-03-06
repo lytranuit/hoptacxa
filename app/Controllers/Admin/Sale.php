@@ -25,7 +25,7 @@ class Sale extends BaseController
             return redirect()->to(base_url('admin/sale'));
         } else {
             $sale_model = model("SaleModel");
-            $sale_line_model = model("saleLineModel");
+            $sale_line_model = model("SaleLineModel");
             $product_model = model("ProductModel");
             $tin = $sale_model->where(array('id' => $id))->asObject()->first();
             $tin->details = $sale_line_model->where(array('order_id' => $tin->id))->asObject()->findAll();
