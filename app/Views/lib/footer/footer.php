@@ -23,14 +23,14 @@
                             <div class="icon-box-img" style="width: 60px">
                                 <div class="icon">
                                     <div class="icon-inner">
-                                        <img width="256" height="256" src="<?= base_url("assets/images/giao-hang-30-phut.png") ?>" class="attachment-medium size-medium" alt="">
+                                        <img width="256" height="256" src="<?= base_url("assets/images/hab_left_icon_1.webp") ?>" class="attachment-medium size-medium" alt="">
                                     </div>
                                 </div>
                             </div>
                             <div class="icon-box-text last-reset">
 
 
-                                <p><strong>GIAO HÀNG TRONG 30 PHÚT</strong><br>Khoảng cách dưới 5km</p>
+                                <p><strong>Luôn mới</strong><br>Những sản phẩm mới nhất vụ mùa vừa qua</p>
 
                             </div>
                         </div>
@@ -48,14 +48,14 @@
                             <div class="icon-box-img" style="width: 60px">
                                 <div class="icon">
                                     <div class="icon-inner">
-                                        <img width="256" height="256" src="<?= base_url("assets/images/mien-phi-giao-hang.png") ?>" class="attachment-medium size-medium" />
+                                        <img width="256" height="256" src="<?= base_url("assets/images/hab_left_icon_2.webp") ?>" class="attachment-medium size-medium" />
                                     </div>
                                 </div>
                             </div>
                             <div class="icon-box-text last-reset">
 
 
-                                <p><strong>MIỄN PHÍ GIAO HÀNG</strong><br>Đơn hàng từ 10kg</p>
+                                <p><strong>Tự Nhiên</strong><br>Cam kết 100% tự nhiên trong từng hạt gạo</p>
 
                             </div>
                         </div>
@@ -160,7 +160,7 @@
                             <li id="text-2" class="widget widget_text">
                                 <h2 class="widgettitle">Gạo Đất Phú</h2>
                                 <div class="textwidget">
-                                    <p>Gạo Quý mang đến sản phẩm Gạo sạch chất lượng. Được canh tác theo hướng hữu cơ tại vùng đất tự nhiên, không chất hóa học.</p>
+                                    <p>Gạo Đất Phú mang đến sản phẩm Gạo sạch chất lượng. Được canh tác theo hướng hữu cơ tại vùng đất tự nhiên, không chất hóa học.</p>
                                     <div class="ft-contact-address">Địa chỉ: <?= $options['dia_chi'] ?></div>
                                     <div class="ft-contact-email">Email: <a href="mailto:<?= $options['email'] ?>" target="_blank" rel="noopener noreferrer"><?= $options['email'] ?></a></div>
                                     <div>

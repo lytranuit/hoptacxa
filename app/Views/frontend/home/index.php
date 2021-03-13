@@ -210,7 +210,7 @@
                 <div class="col small-12 large-12">
                     <div class="col-inner" style="margin:0px 0px -10px 0px;">
                         <h2 style="text-align: center;">GẠO LỨT LÀ HẠT NGỌC TRỜI</h2>
-                        <h3 class="thin-font" style="text-align: center;">Cửa hàng Gạo Quý cung cấp đến Quý khách hàng sản phẩm Gạo lứt hữu cơ chất lượng.<br>Được canh tác tại vùng đất tự nhiên, không chất hóa học.</h3>
+                        <h3 class="thin-font" style="text-align: center;">Cửa hàng Gạo Đất Phú cung cấp đến Quý khách hàng sản phẩm Gạo lứt hữu cơ chất lượng.<br>Được canh tác tại vùng đất tự nhiên, không chất hóa học.</h3>
                     </div>
                 </div>
             </div>
@@ -315,7 +315,7 @@
                                             <div class="text-inner text-center">
 
                                                 <h4><span style="color: #282828;">Vùng nguyên liệu hữu cơ</span></h4>
-                                                <p><span style="color: #282828;">Gạo hữu cơ Gạo Quý được trồng tại vùng nguyên liệu đạt chuẩn hữu cơ. Trong trồng trọt không sử dụng phân hóa học, thuốc trừ sâu, thuốc trồng trọt và chất bảo quản trong quá trình đóng gói.<br>
+                                                <p><span style="color: #282828;">Gạo hữu cơ Gạo Đất Phú được trồng tại vùng nguyên liệu đạt chuẩn hữu cơ. Trong trồng trọt không sử dụng phân hóa học, thuốc trừ sâu, thuốc trồng trọt và chất bảo quản trong quá trình đóng gói.<br>
                                                     </span></p>
                                             </div>
                                         </div>
@@ -474,7 +474,7 @@
                                             <div class="text-inner text-center">
 
                                                 <h4><span style="color: #282828;">Cái tâm chân chánh</span></h4>
-                                                <p><span style="color: #282828;">Gạo Quý cam kết cùng người nông dân kinh doanh bằng cái tâm chân chánh. Mong muốn được chung tay góp sức, trong tương lại không xa toàn bộ người Việt Nam được sử dụng gạo lứt hữu cơ và các thực phẩm khác, tự nhiên, không hóa chất.</span></p>
+                                                <p><span style="color: #282828;">Gạo Đất Phú cam kết cùng người nông dân kinh doanh bằng cái tâm chân chánh. Mong muốn được chung tay góp sức, trong tương lại không xa toàn bộ người Việt Nam được sử dụng gạo lứt hữu cơ và các thực phẩm khác, tự nhiên, không hóa chất.</span></p>
                                             </div>
                                         </div>
                                         <!-- text-box-inner -->
