@@ -49,7 +49,7 @@ class Ajax extends BaseController
         ini_set('upload_max_filesize', '64M');
         $date = date("Y-m-d");
         $upload_path_url = "assets/uploads/$date/";
-        $dir = ROOTPATH . 'public/assets/uploads/' . $date;
+        $dir = ROOTPATH . 'assets/uploads/' . $date;
         if (!file_exists($dir)) {
             mkdir($dir, 0777, true);
         }
@@ -76,6 +76,21 @@ class Ajax extends BaseController
             $id_image = $file_model->insert($data_up);
             $data_up['id'] = $id_image;
             echo json_encode($data_up);
+        }
+    }
+    public function removeimage()
+    {
+        helper("auth");
+        $file_model = model("FileModel");
+
+        $id = $this->request->getVar("id");
+        if ($id > 0) {
+
+            $data = $file_model->where("id", $id)->first();
+            // print_r($data);die();
+            $src = $data['src'];
+            unlink(ROOTPATH . $src);
+            $file_model->delete($id);
         }
     }
 }
