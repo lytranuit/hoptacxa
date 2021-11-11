@@ -27,7 +27,7 @@
 
                         <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1619110074">
                             <div class="img-inner dark">
-                                <img width="737" height="1024" src="./123_files/Trang-chủ-Chung-tay-gop-suc-737x1024.jpg" class="attachment-large size-large" alt="" srcset="https://gaoquy.vn/wp-content/uploads/2020/04/Trang-chủ-Chung-tay-gop-suc-737x1024.jpg 737w, https://gaoquy.vn/wp-content/uploads/2020/04/Trang-chủ-Chung-tay-gop-suc-252x350.jpg 252w, https://gaoquy.vn/wp-content/uploads/2020/04/Trang-chủ-Chung-tay-gop-suc-768x1068.jpg 768w, https://gaoquy.vn/wp-content/uploads/2020/04/Trang-chủ-Chung-tay-gop-suc-600x834.jpg 600w, https://gaoquy.vn/wp-content/uploads/2020/04/Trang-chủ-Chung-tay-gop-suc-216x300.jpg 216w, https://gaoquy.vn/wp-content/uploads/2020/04/Trang-chủ-Chung-tay-gop-suc.jpg 1000w" sizes="(max-width: 737px) 100vw, 737px">
+                                <?= $trangchu['frame1'] ?>
                             </div>
 
                             <style scope="scope">
@@ -42,141 +42,15 @@
                 <div class="col medium-8 small-12 large-8">
                     <div class="col-inner" style="margin:0px 0px -50px 0px;">
 
-                        <div class="banner has-hover" id="banner-423506251">
-                            <div class="banner-inner fill">
-                                <div class="banner-bg fill">
-                                    <div class="bg fill bg-fill  bg-loaded"></div>
+                        <div class="text ">
 
-                                </div>
-                                <!-- bg-layers -->
-                                <div class="banner-layers container">
-                                    <div class="fill banner-link"></div>
-                                    <div id="text-box-1352977483" class="text-box banner-layer hide-for-medium x50 md-x50 lg-x50 y0 md-y0 lg-y0 res-text">
-                                        <div class="text ">
+                            <div class="text-inner text-left">
 
-                                            <div class="text-inner text-left">
 
-                                                <h4 class="uppercase"><strong>MÙA VÀNG TRÊN CÁNH ĐỒNG LÚA HỮU CƠ </strong></h4>
-                                                <p><span style="font-weight: 400;">Lúa gạo trồng theo hữu cơ có lợi rất nhiều, vừa được đất tơi xốp, sản phẩm an toàn cho sức khỏe, và chính người nông dân không bị nhiễm độc.</span></p>
-                                                <p><span style="font-weight: 400;">Trong một nhân duyên đến với vùng núi Đắk Lắk, chúng tôi may mắn biết đến ruộng lúa màu mỡ được trời ban tặng cho người dân nơi đây. Cánh đồng lúa được trồng theo phương pháp hữu cơ, và được bao bọc bởi những thảm rừng tự nhiên, mang đến dòng nước suối tươi mát len lỏi vào cánh đồng cho bà con trồng lúa và hoa màu. Hàng năm lũ tràn về mang theo phù sa cho đồng ruộng quanh năm tươi tốt, phì nhiêu.&nbsp;</span></p>
-                                                <p><span style="font-weight: 400;">Ở đây, không khí rất trong lành. Trong những ngày tôi đến thăm nơi này, sáng dậy bước ra ngoài trời, chỉ cần hít thở không khí mát rượi và tập vài động tác khí công là người cảm thấy tràn đầy năng lượng cho một ngày mới vui vẻ. Nhờ vậy mà người dân nơi đây luôn vui vẻ và thân thiện.</span></p>
-                                                <a href="" target="_self" class="button primary is-gloss" style="border-radius:10px;">
-                                                    <span>Xem thêm</span>
-                                                </a>
+                                <?= $trangchu['frame2'] ?>
 
-                                            </div>
-                                        </div>
-                                        <!-- text-box-inner -->
-
-                                        <style scope="scope">
-                                            #text-box-1352977483 {
-                                                width: 100%;
-                                            }
-
-                                            #text-box-1352977483 .text {
-                                                font-size: 138%;
-                                            }
-
-                                            @media (min-width:550px) {
-                                                #text-box-1352977483 .text {
-                                                    font-size: 150%;
-                                                }
-                                            }
-                                        </style>
-                                    </div>
-                                    <!-- text-box -->
-
-                                    <div id="text-box-394820409" class="text-box banner-layer show-for-medium hide-for-small x50 md-x50 lg-x50 y0 md-y0 lg-y0 res-text">
-                                        <div class="text ">
-
-                                            <div class="text-inner text-left">
-
-                                                <h3 class="uppercase"><strong>MÙA VÀNG TRÊN CÁNH ĐỒNG LÚA HỮU CƠ </strong></h3>
-                                                <p><span style="font-weight: 400;">Lúa gạo trồng theo hữu cơ có lợi rất nhiều, vừa được đất tơi xốp, sản phẩm an toàn cho sức khỏe, và chính người nông dân không bị nhiễm độc.</span></p>
-                                                <p><span style="font-weight: 400;">Trong một nhân duyên đến với vùng núi Đắk Lắk, chúng tôi may mắn biết đến ruộng lúa màu mỡ được trời ban tặng cho người dân nơi đây. Cánh đồng lúa được trồng theo phương pháp hữu cơ, và được bao bọc bởi những thảm rừng tự nhiên, mang đến dòng nước suối tươi mát len lỏi vào cánh đồng cho bà con trồng lúa và hoa màu. Hàng năm lũ tràn về mang theo phù sa cho đồng ruộng quanh năm tươi tốt, phì nhiêu.</span></p>
-                                                <a rel="noopener noreferrer" href="" target="_blank" class="button secondary" style="border-radius:10px;">
-                                                    <span>Xem thêm</span>
-                                                </a>
-
-                                            </div>
-                                        </div>
-                                        <!-- text-box-inner -->
-
-                                        <style scope="scope">
-                                            #text-box-394820409 {
-                                                width: 100%;
-                                            }
-
-                                            #text-box-394820409 .text {
-                                                font-size: 138%;
-                                            }
-
-                                            @media (min-width:550px) {
-                                                #text-box-394820409 .text {
-                                                    font-size: 150%;
-                                                }
-                                            }
-                                        </style>
-                                    </div>
-                                    <!-- text-box -->
-
-                                    <div id="text-box-718436414" class="text-box banner-layer show-for-small x50 md-x50 lg-x50 y0 md-y0 lg-y0 res-text">
-                                        <div class="text ">
-
-                                            <div class="text-inner text-left">
-
-                                                <h3 class="uppercase"><strong>MÙA VÀNG TRÊN CÁNH ĐỒNG LÚA HỮU CƠ </strong></h3>
-                                                <p><span style="font-weight: 400;">Lúa gạo trồng theo hữu cơ có lợi rất nhiều, vừa được đất tơi xốp, sản phẩm an toàn cho sức khỏe, và chính người nông dân không bị nhiễm độc.</span></p>
-                                                <p><span style="font-weight: 400;">Trong một nhân duyên đến với vùng núi Đắk Lắk, chúng tôi may mắn biết đến ruộng lúa màu mỡ được trời ban tặng cho người dân nơi đây. Cánh đồng lúa được trồng theo phương pháp hữu cơ, và được bao bọc bởi những thảm rừng tự nhiên, mang đến dòng nước suối tươi mát len lỏi vào cánh đồng cho bà con trồng lúa và hoa màu. Hàng năm lũ tràn về mang theo phù sa cho đồng ruộng quanh năm tươi tốt, phì nhiêu.&nbsp;</span></p>
-                                                <p><span style="font-weight: 400;">Ở đây, không khí rất trong lành. Trong những ngày tôi đến thăm nơi này, sáng dậy bước ra ngoài trời, chỉ cần hít thở không khí mát rượi và tập vài động tác khí công là người cảm thấy tràn đầy năng lượng cho một ngày mới</span></p>
-                                                <p></p>
-                                                <a rel="noopener noreferrer" href="" target="_blank" class="button secondary" style="border-radius:10px;">
-                                                    <span>Xem thêm</span>
-                                                </a>
-
-                                            </div>
-                                        </div>
-                                        <!-- text-box-inner -->
-
-                                        <style scope="scope">
-                                            #text-box-718436414 {
-                                                width: 100%;
-                                            }
-
-                                            #text-box-718436414 .text {
-                                                font-size: 141%;
-                                            }
-
-                                            @media (min-width:550px) {
-                                                #text-box-718436414 .text {
-                                                    font-size: 150%;
-                                                }
-                                            }
-                                        </style>
-                                    </div>
-                                    <!-- text-box -->
-
-                                </div>
-                                <!-- .banner-layers -->
                             </div>
-                            <!-- .banner-inner -->
-
-
-                            <style scope="scope">
-                                #banner-423506251 {
-                                    padding-top: 439px;
-                                    background-color: rgb(255, 255, 255);
-                                }
-
-                                @media (min-width:850px) {
-                                    #banner-423506251 {
-                                        padding-top: 500px;
-                                    }
-                                }
-                            </style>
                         </div>
-                        <!-- .banner -->
-
 
                     </div>
                 </div>
@@ -193,7 +67,7 @@
         </style>
     </section>
 
-    <section class="section dark has-parallax" id="section_191242925">
+    <section class="section  has-parallax" id="section_191242925">
         <div class="bg section-bg fill bg-fill parallax-active bg-loaded">
 
 
@@ -208,15 +82,15 @@
             <div class="gap-element clearfix" style="display:block; height:auto; padding-top:30px"></div>
             <div class="row" id="row-1054385422">
                 <div class="col small-12 large-12">
-                    <div class="col-inner" style="margin:0px 0px -10px 0px;">
-                        <h2 style="text-align: center;">GẠO LỨT LÀ HẠT NGỌC TRỜI</h2>
-                        <h3 class="thin-font" style="text-align: center;">Cửa hàng Gạo Đất Phú cung cấp đến Quý khách hàng sản phẩm Gạo lứt hữu cơ chất lượng.<br>Được canh tác tại vùng đất tự nhiên, không chất hóa học.</h3>
+                    <div class="col-inner dark" style="margin:0px 0px -10px 0px;">
+
+                        <?= $trangchu['frame3'] ?>
                     </div>
                 </div>
             </div>
             <div class="row row-small align-middle" id="row-439060445">
                 <div class="col medium-3 small-12 large-3">
-                    <div class="col-inner dark">
+                    <div class="col-inner ">
 
                         <div class="banner has-hover" id="banner-1381202860">
                             <div class="banner-inner fill">
@@ -230,13 +104,12 @@
                                 <div class="banner-layers container">
                                     <div class="fill banner-link"></div>
                                     <div id="text-box-1231659945" class="text-box banner-layer x95 md-x95 lg-x95 y0 md-y0 lg-y0 res-text">
-                                        <div class="text dark">
+                                        <div class="text ">
 
-                                            <div class="text-inner text-center">
+                                            <div class="text-inner text-center" style="padding:15px 0px;">
 
-                                                <h4><span style="color: #282828;">Gạo lứt hữu cơ</span></h4>
-                                                <p><span style="color: #282828;">Chúng tôi nhận ra rằng gạo lứt là hạt ngọc trời, do Mẹ thiên nhiên tạo ra tại Việt Nam, là thực tốt nhất cho con người và cũng là dược phẩm tốt nhất cho người. Gạo lứt hữu cơ đạt chuẩn cân bằng âm dương, giúp cơ thể ta tự trở về mức cân bằng.<br>
-                                                    </span></p>
+                                                <?= $trangchu['frame4'] ?>
+
                                             </div>
                                         </div>
                                         <!-- text-box-inner -->
@@ -249,12 +122,16 @@
                                             #text-box-1231659945 .text {
                                                 font-size: 200%;
                                             }
+
+                                            #text-box-1231659945 h2 {
+                                                font-size: 1.6em;
+                                            }
                                         </style>
                                     </div>
                                     <!-- text-box -->
 
                                     <div class="img has-hover x30 md-x50 lg-x50 y100 md-y100 lg-y100" id="image_1921243012">
-                                        <div class="img-inner dark">
+                                        <div class="img-inner ">
                                             <img width="512" height="512" src="./123_files/Fresh-PNG.png" class="attachment-large size-large" alt="Fresh Png" srcset="https://gaoquy.vn/wp-content/uploads/2019/04/Fresh-PNG.png 512w, https://gaoquy.vn/wp-content/uploads/2019/04/Fresh-PNG-350x350.png 350w, https://gaoquy.vn/wp-content/uploads/2019/04/Fresh-PNG-300x300.png 300w, https://gaoquy.vn/wp-content/uploads/2019/04/Fresh-PNG-100x100.png 100w, https://gaoquy.vn/wp-content/uploads/2019/04/Fresh-PNG-150x150.png 150w" sizes="(max-width: 512px) 100vw, 512px">
                                         </div>
 
@@ -310,13 +187,11 @@
                                 <div class="banner-layers container">
                                     <div class="fill banner-link"></div>
                                     <div id="text-box-2042975123" class="text-box banner-layer x95 md-x95 lg-x95 y0 md-y0 lg-y0 res-text">
-                                        <div class="text dark">
+                                        <div class="text ">
 
-                                            <div class="text-inner text-center">
+                                            <div class="text-inner text-center" style="padding:15px 0px;">
 
-                                                <h4><span style="color: #282828;">Vùng nguyên liệu hữu cơ</span></h4>
-                                                <p><span style="color: #282828;">Gạo hữu cơ Gạo Đất Phú được trồng tại vùng nguyên liệu đạt chuẩn hữu cơ. Trong trồng trọt không sử dụng phân hóa học, thuốc trừ sâu, thuốc trồng trọt và chất bảo quản trong quá trình đóng gói.<br>
-                                                    </span></p>
+                                                <?= $trangchu['frame5'] ?>
                                             </div>
                                         </div>
                                         <!-- text-box-inner -->
@@ -329,12 +204,16 @@
                                             #text-box-2042975123 .text {
                                                 font-size: 200%;
                                             }
+
+                                            #text-box-2042975123 h2 {
+                                                font-size: 1.6em;
+                                            }
                                         </style>
                                     </div>
                                     <!-- text-box -->
 
                                     <div class="img has-hover x50 md-x50 lg-x50 y100 md-y100 lg-y100" id="image_1704170487">
-                                        <div class="img-inner dark">
+                                        <div class="img-inner ">
                                             <img width="512" height="512" src="./123_files/Fresh-PNG.png" class="attachment-large size-large" alt="Fresh Png" srcset="https://gaoquy.vn/wp-content/uploads/2019/04/Fresh-PNG.png 512w, https://gaoquy.vn/wp-content/uploads/2019/04/Fresh-PNG-350x350.png 350w, https://gaoquy.vn/wp-content/uploads/2019/04/Fresh-PNG-300x300.png 300w, https://gaoquy.vn/wp-content/uploads/2019/04/Fresh-PNG-100x100.png 100w, https://gaoquy.vn/wp-content/uploads/2019/04/Fresh-PNG-150x150.png 150w" sizes="(max-width: 512px) 100vw, 512px">
                                         </div>
 
@@ -390,12 +269,10 @@
                                 <div class="banner-layers container">
                                     <div class="fill banner-link"></div>
                                     <div id="text-box-1775917307" class="text-box banner-layer x95 md-x95 lg-x95 y0 md-y0 lg-y0 res-text">
-                                        <div class="text dark">
+                                        <div class="text ">
 
-                                            <div class="text-inner text-center">
-
-                                                <h4><span style="color: #282828;">Phân loại gạo lứt</span></h4>
-                                                <p><span style="color: #282828;">Gạo lứt là gạo chỉ xay bỏ vỏ trấu, có 3 màu khác nhau: màu trắng ngà (nâu), màu đỏ, màu đen. Gạo lứt trắng (còn gọi là gạo nâu, gạo lứt trắng ngà) – “brown rice” – được sản xuất nhiều nhất tại Việt Nam và trên thế giới.</span></p>
+                                            <div class="text-inner text-center" style="padding:15px 0px;">
+                                                <?= $trangchu['frame6'] ?>
                                             </div>
                                         </div>
                                         <!-- text-box-inner -->
@@ -408,12 +285,16 @@
                                             #text-box-1775917307 .text {
                                                 font-size: 200%;
                                             }
+
+                                            #text-box-1775917307 h2 {
+                                                font-size: 1.6em;
+                                            }
                                         </style>
                                     </div>
                                     <!-- text-box -->
 
                                     <div class="img has-hover x50 md-x50 lg-x50 y100 md-y100 lg-y100" id="image_2037527756">
-                                        <div class="img-inner dark">
+                                        <div class="img-inner ">
                                             <img width="512" height="512" src="./123_files/Fresh-PNG.png" class="attachment-large size-large" alt="Fresh Png" srcset="https://gaoquy.vn/wp-content/uploads/2019/04/Fresh-PNG.png 512w, https://gaoquy.vn/wp-content/uploads/2019/04/Fresh-PNG-350x350.png 350w, https://gaoquy.vn/wp-content/uploads/2019/04/Fresh-PNG-300x300.png 300w, https://gaoquy.vn/wp-content/uploads/2019/04/Fresh-PNG-100x100.png 100w, https://gaoquy.vn/wp-content/uploads/2019/04/Fresh-PNG-150x150.png 150w" sizes="(max-width: 512px) 100vw, 512px">
                                         </div>
 
@@ -469,12 +350,11 @@
                                 <div class="banner-layers container">
                                     <div class="fill banner-link"></div>
                                     <div id="text-box-326054796" class="text-box banner-layer x95 md-x95 lg-x95 y0 md-y0 lg-y0 res-text">
-                                        <div class="text dark">
+                                        <div class="text ">
 
-                                            <div class="text-inner text-center">
+                                            <div class="text-inner text-center" style="padding:15px 0px;">
 
-                                                <h4><span style="color: #282828;">Cái tâm chân chánh</span></h4>
-                                                <p><span style="color: #282828;">Gạo Đất Phú cam kết cùng người nông dân kinh doanh bằng cái tâm chân chánh. Mong muốn được chung tay góp sức, trong tương lại không xa toàn bộ người Việt Nam được sử dụng gạo lứt hữu cơ và các thực phẩm khác, tự nhiên, không hóa chất.</span></p>
+                                                <?= $trangchu['frame7'] ?>
                                             </div>
                                         </div>
                                         <!-- text-box-inner -->
@@ -487,12 +367,16 @@
                                             #text-box-326054796 .text {
                                                 font-size: 200%;
                                             }
+
+                                            #text-box-326054796 h2 {
+                                                font-size: 1.6em;
+                                            }
                                         </style>
                                     </div>
                                     <!-- text-box -->
 
                                     <div class="img has-hover x50 md-x50 lg-x50 y100 md-y100 lg-y100" id="image_1192517244">
-                                        <div class="img-inner dark">
+                                        <div class="img-inner ">
                                             <img width="512" height="512" src="./123_files/Fresh-PNG.png" class="attachment-large size-large" alt="Fresh Png" srcset="https://gaoquy.vn/wp-content/uploads/2019/04/Fresh-PNG.png 512w, https://gaoquy.vn/wp-content/uploads/2019/04/Fresh-PNG-350x350.png 350w, https://gaoquy.vn/wp-content/uploads/2019/04/Fresh-PNG-300x300.png 300w, https://gaoquy.vn/wp-content/uploads/2019/04/Fresh-PNG-100x100.png 100w, https://gaoquy.vn/wp-content/uploads/2019/04/Fresh-PNG-150x150.png 150w" sizes="(max-width: 512px) 100vw, 512px">
                                         </div>
 
@@ -530,14 +414,6 @@
                         </div>
                         <!-- .banner -->
 
-
-                    </div>
-                </div>
-                <div class="col small-12 large-12">
-                    <div class="col-inner text-center">
-                        <a class="button primary is-gloss" style="border-radius:10px;">
-                            <span>Tìm hiểu thêm</span>
-                        </a>
 
                     </div>
                 </div>
@@ -701,7 +577,9 @@
             slidesToShow: 1,
             slidesToScroll: 1,
             dots: false,
-            arrows: false
+            arrows: false,
+            autoplay: true,
+            autoplaySpeed: 2000,
         });
 
         $('.c-home-app').slick({

@@ -26,6 +26,11 @@ class Settings extends BaseController
             //die();
             $this->data['tins'] = $tins;
 
+            $trangchu = $option_model->where("group", 'home')->orderBy("order", "asc")->findAll();
+            //echo "<pre>";
+            //print_r($tins);
+            //die();
+            $this->data['trangchu'] = $trangchu;
             return view($this->data['content'], $this->data);
         }
     }

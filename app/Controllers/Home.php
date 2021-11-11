@@ -7,6 +7,12 @@ class Home extends BaseController
     public function index()
     {
         $this->data['title'] =  "Trang chủ" . $this->data['title'];
+        $option_model = model("OptionModel");
+        $trangchu = $option_model->get_options_in(array("frame1", "frame2", "frame3", "frame4", "frame5", "frame6", "frame7"));
+        //echo "<pre>";
+        //print_r($tins);
+        //die();
+        $this->data['trangchu'] = $trangchu;
         //echo $this->data['title'];
         //die();  
         return view($this->data['content'], $this->data);
